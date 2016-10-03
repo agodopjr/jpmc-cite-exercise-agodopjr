@@ -160,6 +160,10 @@ public class Main {
         }
         System.out.println("["+ +sum +"]");*/
 
+        for (int t = 0; t > 10; t++){
+            System.out.println(t + "we");
+        }
+
         //array
         /*String[] myArray = new String[];
         String[] myInstructors = {"Neil","Bert","Amille"};
