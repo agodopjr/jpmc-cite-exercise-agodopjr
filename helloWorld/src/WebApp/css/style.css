@@ -17,6 +17,7 @@ body header nav{
     background-color: #15ff1c;
     border: solid 2px #747b79;
     padding: 5px;
+    margin: 5px;
 }
 body section{
     background-color: #168034;
@@ -39,10 +40,11 @@ body section{
 }
 
 #left-nav {
-    height: 383px;
+    height: 361px;
     background-color: #15ff1c;
     border: solid 2px #747b79;
     padding: 5px;
+    margin: 5px;
 }
 #left-footer{
     height: 20px;
@@ -56,7 +58,7 @@ body section{
     background-color: #ffbb55;
     border: solid 2px #747b79;
     padding: 5px;
-    margin-top: 5px;
+    margin: 5px;
 }
 
 .paragraph-first-article {
@@ -79,15 +81,17 @@ section article footer {
     background-color: #ff9821;
     border: solid 2px #747b79;
     padding: 5px;
+    margin: 5px;
 }
 
 #aside{
-    float: right;
-    width: 32%;
-    height: 50px;
+    float: left;
+    width: 35%;
+    height: 54px;
     background-color: #ff60d7;
     border: solid 2px #747b79;
-    margin: 20px;
+    margin: 5px;
+    padding: 3px;
 }
 
 body footer{
