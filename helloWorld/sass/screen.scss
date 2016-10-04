@@ -1,0 +1,70 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+
+$text-alignment: center;
+$all-font: Arial;
+$default-color: red; /* For browsers that do not support gradients */
+$default-color-Safari: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
+$default-color-Opera: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+$default-color-Firefox: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+$default-color-gradient :linear-gradient(red, yellow, green); /* Standard syntax */
+$default-float: left;
+$default-border: solid 2px #747b79;
+$auto-value: auto;
+$justify-text: justify;
+$size-five: 5px;
+$default-list-style: none;
+
+body {
+  text-align: $text-alignment;
+  font-family: $all-font;
+}
+
+@mixin default-menu {
+  background: $default-color;
+  background: $default-color-gradient;
+  background: $default-color-Firefox;
+  background: $default-color-Opera;
+  background: $default-color-Safari;
+  width: 23%;
+  font-weight: bold;
+  list-style: $default-list-style;
+  float: $default-float;
+  padding: $size-five;
+  margin-left: 2px;
+  border-radius: $size-five;
+}
+.nav-menu {@include default-menu}
+
+@mixin main-section{
+  width: 60%;
+  height: $auto-value;
+  float: $default-float;
+  margin-top: $size-five;
+}
+#main-section { @include main-section}
+
+@mixin section-aside{
+  width: 39%;
+  height: $auto-value;
+  float: $default-float;
+  margin-left: 9px;
+}
+aside { @include section-aside}
+
+.right-section {
+  height: $auto-value;
+  margin: $size-five;
+}
+
+p {
+  text-align: $justify-text;
+}
+footer {
+  clear: both;
+  margin: $auto-value;
+}

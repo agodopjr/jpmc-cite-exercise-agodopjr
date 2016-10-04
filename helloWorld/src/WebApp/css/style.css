@@ -4,6 +4,7 @@ body {
     margin: 20px 15px 10px;
     border-radius: 5px;
     text-align: center;
+    vertical-align: middle;
 }
 
 body header{
@@ -14,7 +15,7 @@ body header{
 }
 
 body header nav{
-    background-color: #15ff1c;
+    background-color: #ff2e66;
     border: solid 2px #747b79;
     padding: 5px;
     margin: 5px;
@@ -41,7 +42,7 @@ body section{
 
 #left-nav {
     height: 361px;
-    background-color: #15ff1c;
+    background-color: #ff2e66;
     border: solid 2px #747b79;
     padding: 5px;
     margin: 5px;
@@ -66,6 +67,7 @@ body section{
     border: solid 2px #747b79;
     padding: 5px;
     margin: 5px;
+
 }
 
 section article footer {
@@ -78,7 +80,7 @@ section article footer {
     float: left;
     width: 60%;
     height: 50px;;
-    background-color: #ff9821;
+    background-color: #131dff;
     border: solid 2px #747b79;
     padding: 5px;
     margin: 5px;
@@ -96,7 +98,7 @@ section article footer {
 
 body footer{
     clear: both;
-    background-color: #181bff;
+    background-color: rgba(195, 215, 255, 0.69);
     border: solid 2px #747b79;
     margin: 5px;;
 }

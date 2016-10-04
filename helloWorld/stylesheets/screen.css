@@ -1,0 +1,63 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* For browsers that do not support gradients */
+/* For Safari 5.1 to 6.0 */
+/* For Opera 11.1 to 12.0 */
+/* For Firefox 3.6 to 15 */
+/* Standard syntax */
+/* line 22, ../sass/screen.scss */
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+/* line 41, ../sass/screen.scss */
+.nav-menu {
+  background: red;
+  background: linear-gradient(red, yellow, green);
+  background: -moz-linear-gradient(red, yellow, green);
+  background: -o-linear-gradient(red, yellow, green);
+  background: -webkit-linear-gradient(red, yellow, green);
+  width: 23%;
+  font-weight: bold;
+  list-style: none;
+  float: left;
+  padding: 5px;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+
+/* line 49, ../sass/screen.scss */
+#main-section {
+  width: 60%;
+  height: auto;
+  float: left;
+  margin-top: 5px;
+}
+
+/* line 57, ../sass/screen.scss */
+aside {
+  width: 39%;
+  height: auto;
+  float: left;
+  margin-left: 9px;
+}
+
+/* line 59, ../sass/screen.scss */
+.right-section {
+  height: auto;
+  margin: 5px;
+}
+
+/* line 64, ../sass/screen.scss */
+p {
+  text-align: justify;
+}
+
+/* line 67, ../sass/screen.scss */
+footer {
+  clear: both;
+  margin: auto;
+}
